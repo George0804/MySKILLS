@@ -1,0 +1,44 @@
+using DocumentFormat.OpenXml.Bibliography;
+using System.Reflection.Metadata.Ecma335;
+
+namespace Carauto
+{
+    public class Car
+    {
+        public enum CarColor
+        {
+            Blue,
+            Black,
+            Red
+        }
+
+        private CarColor _color;
+        private int _year;
+        private double _mileage;
+        private double _fuel;
+
+        public Car(CarColor color, int year, double mileage);
+        {
+            _color = color;
+            _year = year;
+            _mileage = mileage;
+            _fuel = fuel;
+        }
+        public void GoOneMile()
+        {
+            _mileage += 1;
+        }
+        public void Fuel()
+        {
+            _fuel -= 1;
+        }
+        public int fuelLevel()
+        {
+            _fuel == 14;           
+        }
+        public override string ToString()
+        {
+        return $"Color: {_color}, Year: {_year}, Mileage:{mileage}";
+        }
+    }
+}
