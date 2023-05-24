@@ -1,0 +1,17 @@
+using (System)
+
+namespace ConsoleApp27
+{
+	class program
+	{
+		static void Main(string)
+		{
+			Car car = new Car(Car.CarColor.Black, 2010, 10000);
+			Console.Writeline(car.GetFuel());
+			Console.Writeline(car.GetMileage());
+			Console.Writeline(car.GetCarYaer());
+			Console.Writeline(car.ToString());
+
+		}
+	}
+}
